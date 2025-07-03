@@ -104,6 +104,7 @@ https://your-username.streamlit.app
 ```
 cnn-faiss-image-search/
 ├── app.py
+├── model_training.ipynb      # Notebook used for training the CNN and generating embeddings
 ├── cnn_model.pth             # Trained CNN model
 ├── embeddings.npy            # Precomputed embeddings
 ├── classes.pkl               # Class names for CIFAR-10

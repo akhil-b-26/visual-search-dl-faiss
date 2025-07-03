@@ -102,14 +102,17 @@ https://your-username.streamlit.app
 ## 📂 Folder Structure
 
 ```
-cnn-faiss-image-search/
+visual-search-dl-faiss/
 ├── app.py
-├── model_training.ipynb      # Notebook used for training the CNN and generating embeddings
-├── cnn_model.pth             # Trained CNN model
-├── embeddings.npy            # Precomputed embeddings
-├── classes.pkl               # Class names for CIFAR-10
+├── src/
+│   ├── model_training.ipynb
+│   ├── cnn_model.pth
+│   ├── embeddings.npy
+│   ├── indices.npy
+│   ├── classes.pkl
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---

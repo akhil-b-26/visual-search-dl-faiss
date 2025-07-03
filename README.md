@@ -2,8 +2,7 @@
 
 A content-based image retrieval prototype that uses a custom-trained Convolutional Neural Network (CNN) on CIFAR-10 and a FAISS vector database to compute and retrieve image embeddings. Built with PyTorch and deployed via Streamlit.
 
-(![Visual Search Engine](https://github.com/user-attachments/assets/ad24f953-3d52-483c-9f77-cee7c82adfc1)
-)
+![Visual Search Engine](https://github.com/user-attachments/assets/ad24f953-3d52-483c-9f77-cee7c82adfc1)
 
 ---
 

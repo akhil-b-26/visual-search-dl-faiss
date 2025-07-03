@@ -42,7 +42,7 @@ Real-world use cases include:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/cnn-faiss-image-search.git
+git clone [https://github.com/akhil-b-26/visual-search-dl-faiss.git]
 cd cnn-faiss-image-search
 ```
 

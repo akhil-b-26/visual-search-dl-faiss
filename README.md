@@ -8,7 +8,7 @@ A content-based image retrieval prototype that uses a custom-trained Convolution
 
 ## 💡 Motivation & Use Case
 
-Reverse image search is increasingly important in e-commerce, medical imaging, and multimedia organization. This project demonstrates how to build a compact yet powerful visual recognition engine that predicts image classes and is capable of retrieving similar images via deep learning embeddings and FAISS indexing (extension possible).
+Reverse image search is increasingly important in e-commerce, medical imaging, and multimedia organization. This project demonstrates how to build a compact yet powerful visual recognition engine that predicts image classes and is capable of retrieving similar images via deep learning embeddings and FAISS indexing.
 
 Real-world use cases include:
 
@@ -22,7 +22,7 @@ Real-world use cases include:
 
 * 🧠 CNN trained from scratch on CIFAR-10 to extract meaningful image embeddings
 * 🔍 Predicts the top class of an uploaded image using deep features
-* ⚡ (Planned) Fast vector similarity search using FAISS for retrieving similar images
+* ⚡ Fast vector similarity search using FAISS for retrieving similar images
 * 🖼️ Streamlit-based interactive UI
 
 ---
@@ -30,7 +30,7 @@ Real-world use cases include:
 ## 🛠️ Tech Stack
 
 * **PyTorch** – Model training and inference
-* **FAISS** – Efficient vector similarity search (planned extension)
+* **FAISS** – Efficient vector similarity search
 * **Torchvision** – CIFAR-10 dataset and transforms
 * **Streamlit** – Web-based frontend for user interaction
 * **Pillow** – Image handling
@@ -97,11 +97,10 @@ https://your-username.streamlit.app
 * The app predicts the top class of the image using the trained CNN
 * 🔍 Retrieves and displays the top 5 visually similar images using FAISS and deep embeddings
 
-> ⚠️ Note: The current model achieves \~77% accuracy on CIFAR-10. Due to the dataset’s small size and low resolution, occasional misclassifications (e.g., fish labeled as airplane) may occur. Improving training duration or using a deeper model (e.g., ResNet18) can enhance accuracy.
+> ⚠️ Note: The current model achieves 77.18% accuracy on CIFAR-10. Due to the dataset’s small size and low resolution, occasional misclassifications may occur. Improving training duration or using a deeper model (e.g., ResNet18) can enhance accuracy.
 
 * Upload a 32×32 image (or any image, it will be resized)
-* The app predicts the top class of the image using the trained CNN
-* (Optional extension) Retrieve visually similar images using FAISS
+* The app predicts the top class of the image using the trained CNN and retrieves visually similar images using FAISS
 
 ---
 

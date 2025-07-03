@@ -39,12 +39,12 @@ class CIFAR10_CNN(nn.Module):
 
 # Load model and data
 model = CIFAR10_CNN().to(device)
-model.load_state_dict(torch.load('cnn_model.pth', map_location=device))
+model.load_state_dict(torch.load('src/cnn_model.pth', map_location=device))
 model.eval()
 
-embeddings = np.load('embeddings.npy')
-indices = np.load('indices.npy')
-with open('classes.pkl', 'rb') as f:
+embeddings = np.load('src/embeddings.npy')
+indices = np.load('src/indices.npy')
+with open('src/classes.pkl', 'rb') as f:
     classes = pickle.load(f)
 
 # Dataset (for retrieving matching images)

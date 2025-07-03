@@ -43,7 +43,7 @@ Real-world use cases include:
 
 ```bash
 git clone [https://github.com/akhil-b-26/visual-search-dl-faiss.git]
-cd cnn-faiss-image-search
+cd visual-search-dl-faiss
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)

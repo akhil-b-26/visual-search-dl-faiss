@@ -91,17 +91,12 @@ https://your-username.streamlit.app
 
 ## 🖼️ Example Usage
 
-> ⚠️ Note: The current model achieves \~77% accuracy on CIFAR-10. Due to the dataset’s small size and low resolution, occasional misclassifications (e.g., fish labeled as airplane) may occur. Improving training duration or using a deeper model (e.g., ResNet18) can enhance accuracy.
+> ⚠️ Note: The current model achieves 77.18% accuracy on CIFAR-10. Due to the dataset’s small size and low resolution, occasional misclassifications (e.g., fish labeled as airplane) may occur. Improving training duration or using a deeper model (e.g., ResNet18) can enhance accuracy.
 
 * Upload a 32×32 image (or any image, it will be resized)
 * The app predicts the top class of the image using the trained CNN
 * 🔍 Retrieves and displays the top 5 visually similar images using FAISS and deep embeddings
-
-> ⚠️ Note: The current model achieves 77.18% accuracy on CIFAR-10. Due to the dataset’s small size and low resolution, occasional misclassifications may occur. Improving training duration or using a deeper model (e.g., ResNet18) can enhance accuracy.
-
-* Upload a 32×32 image (or any image, it will be resized)
-* The app predicts the top class of the image using the trained CNN and retrieves visually similar images using FAISS
-
+  
 ---
 
 ## 📂 Folder Structure

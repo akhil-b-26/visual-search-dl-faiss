@@ -85,7 +85,7 @@ You can deploy this app for free on [Streamlit Cloud](https://streamlit.io/cloud
 Your app will be live on a link like:
 
 ```
-(https://visual-search-dl.streamlit.app/)
+https://visual-search-dl.streamlit.app/
 ```
 
 ---
